@@ -50,6 +50,9 @@ public class Cgpa {
                 System.out.println("grade:" + grade);
             }
         }
+       else{
+            System.out.println("negative marks not count");
+        }
 
     }
 
