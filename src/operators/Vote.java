@@ -4,7 +4,7 @@ public class Vote {
 
 
     public static void main(String[] args) {
-        int age = 23;
+        int age = 17;
         checkElligibleToVote(age);
 
     }
@@ -15,7 +15,9 @@ public class Vote {
         if (b) {
             System.out.println("egible for vote: " + age);
         }
-        System.out.println(b);
+        else{
+            System.out.println("not egible for vote: " + age);
+        }
 
     }
 }
