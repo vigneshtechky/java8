@@ -4,14 +4,18 @@ public class Vote {
 
 
     public static void main(String[] args) {
-        checkElligibleToVote();
+        int age = 23;
+        checkElligibleToVote(age);
 
     }
 
-    public static void checkElligibleToVote() {
+    public static void checkElligibleToVote(int age) {
         //hardcoded value repating a value in multiple times, if we change the value, multiple places we need to change.
-        int age = 23;
         boolean b = age > 18;
+        if (b) {
+            System.out.println("egible for vote: " + age);
+        }
         System.out.println(b);
+
     }
 }
