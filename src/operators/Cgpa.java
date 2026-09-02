@@ -26,25 +26,25 @@ public class Cgpa {
             }
         }
 
-        if (point >= 8) {
+       else if (point >= 8) {
             if (point <= 8.9) {
                 grade = 'B';
                 System.out.println("garde: " + grade);
             }
         }
-        if (point >= 7) {
+       else if (point >= 7) {
             if (point <= 7.9) {
                 grade = 'C';
                 System.out.println("grade:" + grade);
             }
         }
-        if (point >= 6) {
+      else if (point >= 6) {
             if (point <= 6.9) {
                 grade = 'D';
                 System.out.println("grade:" + grade);
             }
         }
-        if (point >= 0) {
+       else if (point >= 0) {
             if (point <= 5.9) {
                 grade = 'F';
                 System.out.println("grade:" + grade);
