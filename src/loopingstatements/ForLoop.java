@@ -19,7 +19,7 @@ public class ForLoop {
 
         int count = 0;
 
-        for (int i = 0; i <= 500; i = i + 4) {
+        for (int i = 0; true ; i = i + 4) {
             count = count+1;
             System.out.println("count is " + count);
 
