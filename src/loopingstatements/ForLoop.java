@@ -17,11 +17,11 @@ public class ForLoop {
     {
         //for(intializtion, condition, increment/decrement--> ++/--/+=/assignmentOperator)--syntax
 
-        int number = 10;
+        int count = 0;
 
-        for (int i = 0; i <= number; i = i + 1) {
-
-            System.out.println(i);
+        for (int i = 0; i <= 500; i = i + 4) {
+            count = count+1;
+            System.out.println("count is " + count);
 
         }
 
