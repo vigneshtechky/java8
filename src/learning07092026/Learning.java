@@ -4,28 +4,23 @@ import java.sql.SQLOutput;
 
 public class Learning {
     public static void main(String[] args) {
-        table();
+        reverseNumber();
 
     }
 
 
-    public static void table() {
+    public static void reverseNumber() {
         //for loop syntax, for(inti, conditon, inc/dec/assignment){
 //    }
 
+        int number =1234;
+        for(int i =number; i>0; i=i/10){
+            int r = i%10;
+            System.out.print(r);
+
+        }
+        System.out.println();
 
 
-
-
-        int n = 0;
-        int i = 10;
-        int q =  n / i;
-        int r = n % i;
-        System.out.println("number: " + n);
-        System.out.println("divide value:" + i);
-        System.out.println("remainder: " + r);
-        System.out.println("quotient: " + q);
-        n = q;
-        System.out.println("updated the n value: "+n);
     }
 }
