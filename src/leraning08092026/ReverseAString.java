@@ -10,12 +10,13 @@ public class ReverseAString {
 
     private static void reverse(String name) {
       int length =   name.length() -1 ;
+      String reverse = "";
 
       //traversing concept reverse String
       for(int i = length; i>=0;i--){
-          System.out.print(name.charAt(i));
+          reverse = reverse + name.charAt(i);
       }
-        System.out.println();
+        System.out.println(reverse);
 
     }
 }
