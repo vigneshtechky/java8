@@ -3,12 +3,18 @@ package leraning08092026;
 public class ReverseAString {
 
     public static void main(String[] args) {
-        String name = "vignesh"; //7
+        String name = "malayalam"; //7
         //
-        reverse(name);
+        String result =reverse(name);
+        if(name.equals(result)){
+            System.out.println("input: "+name +" is a palindrome: "+result);
+        }
+        else{
+            System.out.println("input: "+name +" is not a palindrome; "+result);
+        }
     }
 
-    private static void reverse(String name) {
+    public static String reverse(String name) {
       int length =   name.length() -1 ;
       String reverse = "";
 
@@ -16,7 +22,7 @@ public class ReverseAString {
       for(int i = length; i>=0;i--){
           reverse = reverse + name.charAt(i);
       }
-        System.out.println(reverse);
+       return reverse;
 
     }
 }
