@@ -7,13 +7,14 @@ public class Practise {
         System.out.println("input is:" + input);
         int result = reversenumber(input);
         System.out.println("output is:" + result);
+        System.out.println(result * 2);
 
 
     }
 
     public static int reversenumber(int number) {
         int reverse = 0;
-        for (int i = number; i > 0; i = i / 10){
+        for (int i = number; i > 0; i = i / 10) {
             int r = i % 10;
             int fr = (reverse * 10) + r;
             reverse = fr;
