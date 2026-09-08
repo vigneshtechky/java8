@@ -10,7 +10,7 @@ public class ReverseAString {
             System.out.println("input: "+name +" is a palindrome: "+result);
         }
         else{
-            System.out.println("input: "+name +" is not a palindrome; "+result);
+            System.out.println("input: "+name +" is not a palindrome: "+result);
         }
     }
 
