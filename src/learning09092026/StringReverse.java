@@ -3,6 +3,7 @@ package learning09092026;
 public class StringReverse {
     public static void main(String[] args) {
         String name = "python";
+        string result = reverse (name);
         String reverse = "";
 
         int i = name.length() - 1;
